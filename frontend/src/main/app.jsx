@@ -1,10 +1,11 @@
-import React from 'react'
 import 'modules/bootstrap/dist/css/bootstrap.min.css'
 import 'modules/font-awesome/css/font-awesome.min.css'
+import React from 'react'
+import Todo from '../todo/todo'
+import About from '../about/about'
 
 export default props =>
-    <div>
-        <h1>
-            Teste do mal
-        </h1>
+    <div className="conteiner">
+        <Todo/>
+        <About/>
     </div>
