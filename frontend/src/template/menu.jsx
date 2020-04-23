@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default props => 
+export default props => (
     <nav className='navbar navbar-inverse bg-inverse'>
         <div className='container'>
             <div className='navbar-header'>
@@ -17,3 +17,4 @@ export default props =>
             </div>
         </div>
     </nav>
+)

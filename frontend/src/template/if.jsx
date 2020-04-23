@@ -1,11 +1,9 @@
 import React from 'react'
 
-
-export default props =>{
+export default props => {
     if(props.test) {
         return props.children
-    }else{
+    } else {
         return false
     }
 }
-    
